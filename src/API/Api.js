@@ -42,11 +42,3 @@ export const deleteList = (id) => {
     }
 
 }
-
-// export const api = () => {
-//     return (dispatch) => {
-//         axios.get("https://jsonplaceholder.typicode.com/todos/1").then(res => {
-//             dispatch(sampleAction(res.data))
-//         })
-//     }
-// }
