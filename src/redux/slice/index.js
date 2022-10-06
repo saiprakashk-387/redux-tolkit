@@ -1,28 +1,23 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const sampleSlice = createSlice({
-  name: 'sample',
+  name: "sample",
   initialState: {
-    // sample: {},
     ///state//
-    fillText: {}
+    fillText: {},
   },
   ///reducer
   reducers: {
-    // sampleAction: (state, { payload }) => {
-    //   state.sample = payload;
-    // },
-    ///action 
+    ///action
     fillTextAction: (state, { payload }) => {
-      state.fillText = payload
-    }
-    
+      state.fillText = payload;
+    },
   },
 });
 
 export const {
   // sampleAction ,
-  fillTextAction 
+  fillTextAction,
 } = sampleSlice.actions;
 
 // export const sampleSelector = (state) => state.sample;
